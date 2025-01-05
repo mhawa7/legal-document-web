@@ -1,0 +1,213 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #0044cc;
+    padding: 20px 0;
+    color: white;
+}
+
+header .logo a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0088cc;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.cta-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #e55b00;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    color: #0044cc;
+}
+
+/* Templates Preview Section */
+.templates-preview {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.templates-preview h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.template-item {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+.template-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.step {
+    margin: 20px;
+}
+
+.step h3 {
+    font-size: 1.5em;
+    color: #0044cc;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.pricing h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.pricing-plan {
+    display: inline-block;
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+.pricing-plan h3 {
+    font-size: 1.8em;
+    color: #0044cc;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.pricing-plan ul li {
+    margin: 8px 0;
+}
+
+.pricing-plan a {
+    display: block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.pricing-plan a:hover {
+    background-color: #e55b00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
